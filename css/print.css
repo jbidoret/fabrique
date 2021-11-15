@@ -1,0 +1,29 @@
+
+@page {
+  size: A3;
+  margin: 0;
+}
+body {
+  margin: 0;
+  background: white;
+}
+#poster {
+  position: relative;
+  page-break-inside: avoid;
+  width: 100%;
+  height: 42cm;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  /* reset styles */
+  transform: none !important;
+  box-shadow: none;
+  /* 300 dpi to 96 dpi */
+  font-size:calc(150px / (300 / 96));
+}
+
+video,
+#nav,
+.editor {
+  display: none;
+}

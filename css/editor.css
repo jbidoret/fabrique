@@ -1,0 +1,18 @@
+
+#editing-css,
+#editing-md {
+  background: #333;
+  color: rgba(255,255,255,.8);
+  font-size: 16px;
+  font-family: monospace;
+  line-height: 1.25;
+  tab-size: 2;
+  margin: 0;
+  padding: 10px;
+  border: 0;
+  width: 100%;
+  grid-row: 1;
+  grid-column: 1;
+  overflow: auto;
+}
+
